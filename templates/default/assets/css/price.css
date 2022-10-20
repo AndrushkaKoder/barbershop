@@ -1,0 +1,148 @@
+/* header */
+
+
+
+.wrapper{
+    max-width: 1400px;
+    width: 1200px;
+    margin: auto;
+}
+
+.header{
+    background-color: black;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.logo_index{
+    display: block;
+    margin-top: -15px;
+}
+
+
+.header_menu{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+}
+.header_menu ul{
+    display: flex;
+    
+}
+
+.header_menu ul li{
+    list-style: none;
+    margin-right: 40px;
+    transition: .3s all ease;
+
+}
+.header_menu ul li:hover{
+    transform: scale(1.2);
+}
+
+
+
+.header_menu ul li a{
+    text-decoration: none;
+    color: white;
+    transition: .3s all ease;
+}
+
+.header_menu ul li a:hover{
+    color: blueviolet;
+    transform: scale(1.2);
+}
+
+.section_price_header{
+    padding: 25px;
+}
+
+
+.login{
+    background-color: transparent;
+    color: white;
+    border: none;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: .3s all ease;
+}
+
+.login:hover{
+    color: blueviolet;
+    transform: scale(1.2);
+}
+
+/* price */
+
+body{
+    background-color: #faf7f4;
+}
+
+h1{
+    text-align: center;
+    margin: 50px;
+}
+
+.col-6{
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+table{
+    border: 2px solid black;
+    text-align: center;
+    width: 80%;
+    height: 100%;
+
+}
+
+tr, td{
+    border: 2px solid black;
+    width: 50%;
+}
+
+
+/* footer */
+
+.footer{
+    margin-top: 60px;
+    background-color: #222222;
+    width: 100%;
+    height: 25vh;
+}
+
+.footer_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding-top: 25px;
+
+}
+
+.sochial{
+    width: 15%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 250px;
+    cursor: pointer;
+}
+
+.addres p a{
+    color: white;
+    text-decoration: none;
+}
+
+.btn{
+    background-color: black;
+    border:none;
+    color: white;
+    font-size: 16px;
+    width: 140px;
+    height: 45px;
+    cursor: pointer;
+    transition: .2s all ease;
+}
